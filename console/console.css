@@ -1,0 +1,35 @@
+html {
+	background-color: red;
+	height: 100vh;
+	width: 100vw;
+	margin: 0px;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	background-color: orange;
+}
+
+#video-feed {
+	height: 100%;
+	width: 100%;
+	display: block;
+	object-fit: contain;
+}
+
+main {
+	height: 100%;
+	max-width: 100%;
+	margin: auto;
+	width: fit-content;
+	position: relative;
+}
+
+#controls {
+	background-color: yellow;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
